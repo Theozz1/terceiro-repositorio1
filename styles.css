@@ -1,15 +1,45 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-   --cor-principal: #280069;
-   --cor1: #4b4453;
+   --cor-principal: #000000;
+   --cor1: #00c9c8;
    --cor2: #592d97;
-   --cor3: #33edd4;
-   --preto: #000000;
-   --branco: #FFFFFF;
+   --cor4: #bffcf9;
+   --preto:#47817f;
+   --cor3:#887177;
+   --branco:#ffffff;
 }
 
 body {
      font-size: 1rem;
      font-family: 'Montserrat';
 }
+#contato {
+
+   background: var(--cor-principal);
+   background-size: cover ;
+   padding: 4rem 0;
+   
+   }
+   .formulario{ 
+   
+   background-color: var(--branco);
+   padding: 2rem;
+   border-radius: 10px0  ;
+   box-shadow: 0 0 10px   ;
+   font-weight: bold ;
+   
+   }
+   
+   .formulario button {
+   
+   background-color:var(--cor2)
+   border:none;
+   font-weight:bold
+   
+   }
+   
+   .form-control{
+   
+       background-color: var(--cor1);
+   }
