@@ -14,6 +14,34 @@ body {
      font-size: 1rem;
      font-family: 'Montserrat';
 }
+
+section {
+   padding-bottom: 5rem;
+}
+
+.display-4 {
+   text-shadow: #592d97;
+}
+
+#EF {
+   position: relative
+   padding-top: 5rem;
+   margin-top: 3rem;
+   background-size: 180px 180px;
+}
+#EF .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de background se houverem */
+
+}
+
+
+
+
+
 #contato {
 
    background: var(--cor-principal);
